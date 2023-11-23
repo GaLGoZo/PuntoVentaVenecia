@@ -45,17 +45,19 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 152);
+            this.label1.Size = new System.Drawing.Size(515, 187);
             this.label1.TabIndex = 0;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // PbxVeneciaLogo
             // 
             this.PbxVeneciaLogo.Image = ((System.Drawing.Image)(resources.GetObject("PbxVeneciaLogo.Image")));
-            this.PbxVeneciaLogo.Location = new System.Drawing.Point(-94, -50);
+            this.PbxVeneciaLogo.Location = new System.Drawing.Point(-125, -62);
+            this.PbxVeneciaLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PbxVeneciaLogo.Name = "PbxVeneciaLogo";
-            this.PbxVeneciaLogo.Size = new System.Drawing.Size(579, 324);
+            this.PbxVeneciaLogo.Size = new System.Drawing.Size(772, 399);
             this.PbxVeneciaLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbxVeneciaLogo.TabIndex = 1;
             this.PbxVeneciaLogo.TabStop = false;
@@ -64,21 +66,24 @@
             // 
             this.txtdocumento.BackColor = System.Drawing.Color.White;
             this.txtdocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdocumento.Location = new System.Drawing.Point(88, 190);
+            this.txtdocumento.Location = new System.Drawing.Point(117, 234);
+            this.txtdocumento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtdocumento.Multiline = true;
             this.txtdocumento.Name = "txtdocumento";
-            this.txtdocumento.Size = new System.Drawing.Size(200, 30);
+            this.txtdocumento.Size = new System.Drawing.Size(265, 36);
             this.txtdocumento.TabIndex = 2;
+            this.txtdocumento.TextChanged += new System.EventHandler(this.txtdocumento_TextChanged);
             // 
             // txtclave
             // 
             this.txtclave.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtclave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtclave.Location = new System.Drawing.Point(88, 259);
+            this.txtclave.Location = new System.Drawing.Point(117, 319);
+            this.txtclave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtclave.Multiline = true;
             this.txtclave.Name = "txtclave";
             this.txtclave.PasswordChar = '*';
-            this.txtclave.Size = new System.Drawing.Size(200, 30);
+            this.txtclave.Size = new System.Drawing.Size(267, 37);
             this.txtclave.TabIndex = 3;
             this.txtclave.TextChanged += new System.EventHandler(this.textpassword_TextChanged);
             // 
@@ -87,9 +92,10 @@
             this.lblUsusario.AutoSize = true;
             this.lblUsusario.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsusario.ForeColor = System.Drawing.Color.White;
-            this.lblUsusario.Location = new System.Drawing.Point(84, 165);
+            this.lblUsusario.Location = new System.Drawing.Point(112, 203);
+            this.lblUsusario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsusario.Name = "lblUsusario";
-            this.lblUsusario.Size = new System.Drawing.Size(72, 22);
+            this.lblUsusario.Size = new System.Drawing.Size(90, 27);
             this.lblUsusario.TabIndex = 4;
             this.lblUsusario.Text = "Usuario";
             // 
@@ -98,9 +104,10 @@
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
             this.lblContraseña.ForeColor = System.Drawing.Color.White;
-            this.lblContraseña.Location = new System.Drawing.Point(84, 234);
+            this.lblContraseña.Location = new System.Drawing.Point(112, 288);
+            this.lblContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(101, 22);
+            this.lblContraseña.Size = new System.Drawing.Size(126, 27);
             this.lblContraseña.TabIndex = 5;
             this.lblContraseña.Text = "Contraseña";
             // 
@@ -112,10 +119,10 @@
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.ForeColor = System.Drawing.Color.Indigo;
-            this.btnlogin.Location = new System.Drawing.Point(72, 310);
+            this.btnlogin.Location = new System.Drawing.Point(96, 382);
             this.btnlogin.Margin = new System.Windows.Forms.Padding(0);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(101, 26);
+            this.btnlogin.Size = new System.Drawing.Size(135, 32);
             this.btnlogin.TabIndex = 6;
             this.btnlogin.Text = "INICIAR";
             this.btnlogin.UseVisualStyleBackColor = false;
@@ -125,9 +132,10 @@
             // 
             this.btncancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(200, 310);
+            this.btncancel.Location = new System.Drawing.Point(267, 382);
+            this.btncancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(105, 26);
+            this.btncancel.Size = new System.Drawing.Size(140, 32);
             this.btncancel.TabIndex = 7;
             this.btncancel.Text = "CERRAR";
             this.btncancel.UseVisualStyleBackColor = true;
@@ -135,10 +143,10 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(386, 382);
+            this.ClientSize = new System.Drawing.Size(515, 470);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.lblContraseña);
@@ -148,6 +156,7 @@
             this.Controls.Add(this.PbxVeneciaLogo);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

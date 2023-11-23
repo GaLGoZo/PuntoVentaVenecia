@@ -32,9 +32,9 @@ namespace SistemaPuntoVenta_Venecia
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            List<Usuario> TEST = new CN_Usuario().Listar();
+           /* List<Usuario> TEST = new CN_Usuario().Listar();
             Usuario osuario = new CN_Usuario().Listar().Where(u => u.Documento == txtdocumento.Text && u.Clave == txtclave.Text).FirstOrDefault();
-
+           */
             FormAdmin form = new FormAdmin();
 
             form.Show();
@@ -54,6 +54,11 @@ namespace SistemaPuntoVenta_Venecia
         }
 
         private void textpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtdocumento_TextChanged(object sender, EventArgs e)
         {
 
         }

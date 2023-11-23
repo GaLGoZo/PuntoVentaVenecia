@@ -11,3 +11,16 @@ C:\Users\omar_\Documents\GitHub\SistemaPuntoVenta_Venecia\CapaNegocio\obj\Debug\
 C:\Users\omar_\Documents\GitHub\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaDatos.dll
 C:\Users\omar_\Documents\GitHub\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaDatos.pdb
 C:\Users\omar_\Documents\GitHub\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaDatos.dll.config
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaDatos.dll.config
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\omar_\Documents\GitHub\PuntoVentaVenecia\SistemaPuntoVenta_Venecia\CapaNegocio\obj\Debug\CapaNegocio.pdb
