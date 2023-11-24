@@ -20,10 +20,6 @@ namespace SistemaPuntoVenta_Venecia
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btncancel_Click(object sender, EventArgs e)
         {

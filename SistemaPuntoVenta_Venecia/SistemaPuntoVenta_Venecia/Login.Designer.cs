@@ -46,16 +46,15 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 152);
+            this.label1.Size = new System.Drawing.Size(437, 152);
             this.label1.TabIndex = 0;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // PbxVeneciaLogo
             // 
             this.PbxVeneciaLogo.Image = ((System.Drawing.Image)(resources.GetObject("PbxVeneciaLogo.Image")));
-            this.PbxVeneciaLogo.Location = new System.Drawing.Point(-94, -50);
+            this.PbxVeneciaLogo.Location = new System.Drawing.Point(72, 42);
             this.PbxVeneciaLogo.Name = "PbxVeneciaLogo";
-            this.PbxVeneciaLogo.Size = new System.Drawing.Size(579, 324);
+            this.PbxVeneciaLogo.Size = new System.Drawing.Size(248, 110);
             this.PbxVeneciaLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbxVeneciaLogo.TabIndex = 1;
             this.PbxVeneciaLogo.TabStop = false;
@@ -138,7 +137,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(386, 382);
+            this.ClientSize = new System.Drawing.Size(437, 392);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.lblContraseña);
