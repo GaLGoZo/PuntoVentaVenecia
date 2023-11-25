@@ -4,3 +4,9 @@ C:\Users\Sebastian\Documents\Venecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\
 C:\Users\Sebastian\Documents\Venecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Sebastian\Documents\Venecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Sebastian\Documents\Venecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\omar_\Source\Repos\GaLGoZo\PuntoVentaVenecia\SistemaVenta-Venecia\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\omar_\Source\Repos\GaLGoZo\PuntoVentaVenecia\SistemaVenta-Venecia\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\omar_\Source\Repos\GaLGoZo\PuntoVentaVenecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\omar_\Source\Repos\GaLGoZo\PuntoVentaVenecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\omar_\Source\Repos\GaLGoZo\PuntoVentaVenecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\omar_\Source\Repos\GaLGoZo\PuntoVentaVenecia\SistemaVenta-Venecia\CapaEntidad\obj\Debug\CapaEntidad.pdb
