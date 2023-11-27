@@ -51,6 +51,7 @@ namespace CapaDatos
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine(ex.Message);
                     lista = new List<Permiso>();
                 }
             }

@@ -22,9 +22,13 @@ namespace CapaPresentacion
         private static IconMenuItem MenuActivo = null;
         private static Form FormularioActivo = null;
 
-        public FrmAdministrador(Usuario obusuario)
+        public FrmAdministrador(Usuario objusuario)
         {
-            usuarioActual = obusuario;
+
+            /*if (usuarioActual == null)
+            usuarioActual = new Usuario(){ NombreCompleto = "ADMIN PREDEFINIDO", IdUsuario = 1 };
+            else*/
+                usuarioActual = objusuario;
 
             InitializeComponent();
         }
@@ -44,6 +48,17 @@ namespace CapaPresentacion
         private void FrmAdministrador_Load(object sender, EventArgs e)
         {
             List<Permiso> ListaPermiso = new CN_Permiso().Listar(usuarioActual.IdUsuario);
+
+            foreach (IconMenuItem icomenu in Menu.MenuItems)
+            {
+                bool encontrado = ListaPermiso.Any(m => m.NombreMenu == icomenu.Name);
+
+                if(encontrado == false)
+                {
+                    icomenu.Visible = false;
+                }
+            }
+
 
             lblusuario.Text = usuarioActual.NombreCompleto;
         }

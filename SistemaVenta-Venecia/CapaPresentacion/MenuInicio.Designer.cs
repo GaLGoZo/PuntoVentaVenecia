@@ -313,8 +313,9 @@
             this.Controls.Add(this.MenuStripInicio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FrmAdministrador";
+            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menu";
+            this.Text = "Sistema de Venta Venecia";
             this.Load += new System.EventHandler(this.FrmAdministrador_Load);
             this.MenuStripInicio.ResumeLayout(false);
             this.MenuStripInicio.PerformLayout();
