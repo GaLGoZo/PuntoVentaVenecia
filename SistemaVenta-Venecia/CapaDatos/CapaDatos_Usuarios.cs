@@ -39,7 +39,7 @@ namespace CapaDatos
                                 Correo = dr["Correo"].ToString(),
                                 Clave = dr["Clave"].ToString(),
                                 Estado = Convert.ToBoolean(dr["Estado"])
-                            }); ;
+                            });
 
 
                         }
