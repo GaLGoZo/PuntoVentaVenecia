@@ -274,10 +274,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(760, 63);
+            this.label1.Location = new System.Drawing.Point(656, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(86, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Usuario:";
             // 
@@ -285,10 +286,11 @@
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.BackColor = System.Drawing.Color.Transparent;
+            this.lblusuario.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblusuario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblusuario.Location = new System.Drawing.Point(812, 63);
+            this.lblusuario.Location = new System.Drawing.Point(748, 27);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(49, 13);
+            this.lblusuario.Size = new System.Drawing.Size(96, 25);
             this.lblusuario.TabIndex = 3;
             this.lblusuario.Text = "blusuario";
             // 
