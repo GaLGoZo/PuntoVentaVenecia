@@ -13,13 +13,21 @@ using CapaEntidad;
 
 namespace CapaPresentacion
 {
+
     public partial class Login : Form
     {
         public Login()
         {
             InitializeComponent();
         }
+        private static Usuario usuarioActual;
+        public Login(Usuario objusuario)
+        {
+            usuarioActual = objusuario;
+            InitializeComponent();
+        }
 
+        
 
         private void IbtnIngresar_Click(object sender, EventArgs e)
         {
@@ -29,6 +37,9 @@ namespace CapaPresentacion
 
             if (ousuario != null)
             {
+
+                Login form = new Login(ousuario);
+
                 FrmAdministrador operacion = new FrmAdministrador();
 
                 operacion.Show();
@@ -54,6 +65,11 @@ namespace CapaPresentacion
         private void IbtnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

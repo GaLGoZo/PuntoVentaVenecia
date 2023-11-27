@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SistemaVenta-Venecia",
+    "\\SistemaVenta-Venecia\\CapaPresentacion"
   ],
+  "SelectedNode": "\\SistemaVenta-Venecia\\CapaPresentacion\\MenuInicio.cs",
   "PreviewInSolutionExplorer": false
 }
